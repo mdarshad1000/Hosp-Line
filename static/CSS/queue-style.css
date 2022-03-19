@@ -22,34 +22,18 @@
     padding: 2rem 1rem;
     list-style: none;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 2rem;
   }
   .nav ul li a {
     text-decoration: none;
     color: black;
-    margin: 2rem;
+    margin: 1rem;
   }
   .nav ul li a:hover {
     color: rgb(155, 152, 152);
     cursor: pointer;
     text-decoration: underline;
-  }
-
-  main{
-    min-height: 80vh;
-    margin: 2rem;
-    padding: 2rem;
-    border: 0.8rem solid black;
-  }
-  main a{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    margin: 1rem;
   }
   svg{
     width: 50px;
@@ -78,4 +62,37 @@
   .card h2,h3{
     margin: 0.5rem;
   }
+
+.queue-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin: 1rem;
+  padding: 1rem;
+  flex-direction: column;
+}
+.queue-name-div{
+  display: flex;
+  padding: 1rem;
+}
+.queue-info-div{
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+  width: 50%;
+  height: 60vh;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: aliceblue;
+}
+#submit{
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 6rem;
+}
+
   
