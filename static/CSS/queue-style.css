@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+  }
+  body {
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  }
+  .nav {
+    display: flex;
+    padding: 1rem 0 0 0;
+    margin: 0.5rem;
+    flex-wrap: wrap;
+    background-color: rgb(255 255 255);
+    border-bottom: 1.4px dotted black;  
+  }
+  .nav ul {
+    display: flex;
+    width: 70%;
+    height: 20vh;
+    padding: 2rem 1rem;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 2rem;
+  }
+  .nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+  }
+  .nav ul li a:hover {
+    color: rgb(155, 152, 152);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  main{
+    min-height: 80vh;
+    margin: 2rem;
+    padding: 2rem;
+    border: 0.8rem solid black;
+  }
+  main a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin: 1rem;
+  }
+  svg{
+    width: 50px;
+    height: 50px;
+    fill: black;
+  }
+  svg:hover{
+
+    fill: rgb(112, 112, 255);
+  }
+
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 2rem 18rem 3rem 14rem;
+    padding: 4rem;
+    border: 0.2rem solid black;
+  }
+  .details, .card-head{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .card h2,h3{
+    margin: 0.5rem;
+  }
+  
