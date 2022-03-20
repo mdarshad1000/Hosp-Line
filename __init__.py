@@ -1,7 +1,5 @@
 import psycopg2
-from db import Actions, config
-
-execute = Actions(config)
+import json
 
 with open('auth.json') as r:
     config = json.load(r)
