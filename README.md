@@ -38,12 +38,12 @@ pip install -r requirements.txt
     "port_id" : "port
 }
 ```
-6. Run __init__.py, this will create your database. (Make sure you've Postresql installed on your local system) 
-7. Now you are good to go. Run app.py and visit 
+6. Run __init__.py, this will create your database. (Make sure you've Postgresql installed on your local system) 
+7. Now you are good to go. Run app.py and visit in your browser.
 ```
 http://localhost:5000/
 ```
-in your browser.
+
 
 ## Contribution Guidelines
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
