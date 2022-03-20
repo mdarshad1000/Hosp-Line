@@ -1,10 +1,16 @@
 import psycopg2
+from db import Actions, config
 
+execute = Actions(config)
+
+with open('auth.json') as r:
+    config = json.load(r)
+    
 conn = psycopg2.connect(
-    host='localhost',
-    dbname='postgres',
-    user='postgres',
-    password='Makeawebapp@7',
+    host=config['HOST'],
+    dbname=config['DB'],
+    user=config['USER'],
+    password=config['PASS'],
     port=5432
 )
 cur = conn.cursor()
