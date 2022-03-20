@@ -16,19 +16,19 @@ HospLine is a webapp that allows you to join a queue virtually which leads to no
 ```
 git clone git@github.com:mdarshad1000/Hosp-Line.git
 ```
-3. Change to the repo directory:
+2. Change to the repo directory:
 ```
 cd Hosp-Line
 ``` 
-5. If you want to use virtual environment (Recommended):
+3. If you want to use virtual environment (Recommended):
 ```
 virtualenv HOSPENV && source HOSPENV/bin/activate
 ```
-7. After that, install all the requirements
+4. After that, install all the requirements
 ```
 pip install -r requirements.txt
 ```
-9. Create an 'auth.json' file in the 'Hosp-Line' directory and add
+5. Create an 'auth.json' file in the 'Hosp-Line' directory and add
 ```
 {
     "HOST" : "hostname",
