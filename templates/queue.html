@@ -41,7 +41,7 @@
         </svg>
         <li><a href="/">Home</a></li>
         <li>
-          <a href="https://github.com/nawed2611" target="_blank">Github Repo</a>
+          <a href="https://github.com/mdarshad1000/Hosp-Line/" target="_blank">Github Repo</a>
         </li>
         <li><a href="/about">About</a></li>
       </ul>
@@ -68,10 +68,10 @@
       </div>
       
       <div class="queue-info-div">
-      <p>You are number {{spot}}</p>
+        <p>Your HospLine ID: <h1>{{spot}}</h1> </p>
       <p>
         {% if total_infront == 0 %} Your turn is up, you can go inside! {% else
-        %} {{ total_infront }} ahead of you, Wait for a while
+        %} There are {{ total_infront }} patients ahead of you, Wait for a while
       </p>
       {% endif %}
 
