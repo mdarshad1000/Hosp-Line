@@ -38,10 +38,6 @@
 h1{
     margin: 1.5rem 2rem 2rem 2rem;
 }
-p{
-  margin-left: 2rem;
-  font-size: 1.2rem;
-}
 .card{
     display: flex;
     padding: 1rem 0 0 0;
@@ -53,8 +49,8 @@ p{
 form{
     display: flex;
     margin: 2rem;
-    width: 60vw;
-  height: 90vh;
+    width: 70vw;
+
     padding: 1rem;
     align-items: center;
     flex-direction: column;
@@ -66,7 +62,7 @@ form h2{
     margin: 1rem;
     padding: 0.5rem;
     display: flex;
-    
+
     justify-content: space-between;
 }
 form input, button{
@@ -83,11 +79,11 @@ form input, button{
     padding: 1rem 0 1rem 0;
     margin: 1rem 1rem 2rem 1rem;
     border-radius: 2rem;
-    
+
 }
-#submit:hover{
+form button:hover{
     cursor: pointer;
-    background-color: #DCDCDC;
+    background-color: rgb(226, 137, 137);
 }
 
 

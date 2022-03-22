@@ -287,6 +287,10 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -320,22 +324,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="941" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1647624840369" />
-    <state width="1515" height="119" key="GridCell.Tab.0.bottom" timestamp="1647624843196">
+    <state width="1515" height="118" key="GridCell.Tab.0.bottom" timestamp="1647966297711">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="119" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1647624843196" />
-    <state width="1515" height="119" key="GridCell.Tab.0.center" timestamp="1647624843195">
+    <state width="1515" height="118" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1647966297711" />
+    <state width="1515" height="118" key="GridCell.Tab.0.center" timestamp="1647966297711">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="119" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1647624843195" />
-    <state width="1515" height="119" key="GridCell.Tab.0.left" timestamp="1647624843195">
+    <state width="1515" height="118" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1647966297711" />
+    <state width="1515" height="118" key="GridCell.Tab.0.left" timestamp="1647966297711">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="119" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1647624843195" />
-    <state width="1515" height="119" key="GridCell.Tab.0.right" timestamp="1647624843196">
+    <state width="1515" height="118" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1647966297711" />
+    <state width="1515" height="118" key="GridCell.Tab.0.right" timestamp="1647966297711">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="119" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1647624843196" />
+    <state width="1515" height="118" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1647966297711" />
     <state width="747" height="273" key="GridCell.Tab.1.bottom" timestamp="1647532990076">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -360,10 +364,6 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1639857642171" />
-    <state x="667" y="0" width="606" height="664" maximized="true" key="dock-window-1" timestamp="1639156486444">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="667" y="0" width="606" height="664" maximized="true" key="dock-window-1/0.0.1536.864@0.0.1536.864" timestamp="1639156486444" />
     <state x="814" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1647197560350">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
