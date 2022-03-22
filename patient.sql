@@ -3,4 +3,4 @@ CREATE TABLE IF NOT EXISTS patient(
                     name VARCHAR(30) NOT NULL,
                     birthday VARCHAR(30) NOT NULL,
                     gender VARCHAR(15) NOT NULL,
-                    spot INT)
+                    spot INT);

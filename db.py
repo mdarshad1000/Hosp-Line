@@ -19,14 +19,15 @@ class Actions:
 
     def connect(self):
         if self.conn is None:
-            self.conn = psycopg2.connect(
-                host=self.host,
-                dbname=self.dbname,
-                user=self.user,
-                password=self.password,
-                port=self.port
-            )
-            print('Database connected successfully!')
+            # self.conn = psycopg2.connect(
+            #     host=self.host,
+            #     dbname=self.dbname,
+            #     user=self.user,
+            #     password=self.password,
+            #     port=self.port
+            # )
+            self.conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+            # print('Database connected successfully!')
 
     # def create_table(self):
     #     self.connect()
