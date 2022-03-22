@@ -6,8 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="138c9657-bec0-4c9f-9a4a-815659a80710" name="Default Changelist" comment="updating database">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../FlaskTutorials" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="21jB9H1lTNeMAW0ORtBkLSYPT3J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -126,6 +127,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="db (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HospLine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HospLine" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,27 +161,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\mdars\PycharmProjects\HospLine\db.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HospLine" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/package" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\mdars\PycharmProjects\HospLine\routes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,9 +263,9 @@
       <list>
         <item itemvalue="Python.app" />
         <item itemvalue="Python.__init__ (1)" />
+        <item itemvalue="Python.db (1)" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.db" />
-        <item itemvalue="Python.routes" />
       </list>
     </recent_temporary>
   </component>
@@ -324,22 +325,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="941" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1647624840369" />
-    <state width="1515" height="118" key="GridCell.Tab.0.bottom" timestamp="1647966297711">
+    <state width="1515" height="116" key="GridCell.Tab.0.bottom" timestamp="1647975341859">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="118" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1647966297711" />
-    <state width="1515" height="118" key="GridCell.Tab.0.center" timestamp="1647966297711">
+    <state width="1515" height="116" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1647975341859" />
+    <state width="1515" height="116" key="GridCell.Tab.0.center" timestamp="1647975341858">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="118" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1647966297711" />
-    <state width="1515" height="118" key="GridCell.Tab.0.left" timestamp="1647966297711">
+    <state width="1515" height="116" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1647975341858" />
+    <state width="1515" height="116" key="GridCell.Tab.0.left" timestamp="1647975341858">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="118" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1647966297711" />
-    <state width="1515" height="118" key="GridCell.Tab.0.right" timestamp="1647966297711">
+    <state width="1515" height="116" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1647975341858" />
+    <state width="1515" height="116" key="GridCell.Tab.0.right" timestamp="1647975341859">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="118" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1647966297711" />
+    <state width="1515" height="116" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1647975341859" />
     <state width="747" height="273" key="GridCell.Tab.1.bottom" timestamp="1647532990076">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

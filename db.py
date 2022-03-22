@@ -1,11 +1,8 @@
 import psycopg2
 import json
-import os
 
 with open('auth.json') as r:
     config = json.load(r)
-
-DATABASE_URL = os.environ.get('DATABASE_URL')
 
 
 class Actions:
@@ -20,14 +17,13 @@ class Actions:
 
     def connect(self):
         if self.conn is None:
-            # self.conn = psycopg2.connect(
-            #     host=self.host,
-            #     dbname=self.dbname,
-            #     user=self.user,
-            #     password=self.password,
-            #     port=self.port
-            # )
-            self.conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+            self.conn = psycopg2.connect(
+                host=self.host,
+                dbname=self.dbname,
+                user=self.user,
+                password=self.password,
+                port=self.port
+            )
             print('Database connected successfully!')
 
     # def create_table(self):
