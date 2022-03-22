@@ -1,6 +1,8 @@
 import psycopg2
 import json
+import os
 
+DATABASE_URL = os.environ.get('DATABASE_URL')
 with open('auth.json') as r:
     config = json.load(r)
 
