@@ -7,6 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="138c9657-bec0-4c9f-9a4a-815659a80710" name="Default Changelist" comment="updating database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Blog-MohammadArshad" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -320,26 +322,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1646845772372" />
-    <state x="941" y="187" key="FileChooserDialogImpl" timestamp="1647624840369">
+    <state x="941" y="187" key="FileChooserDialogImpl" timestamp="1647980180825">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="941" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1647624840369" />
-    <state width="1515" height="116" key="GridCell.Tab.0.bottom" timestamp="1647978050939">
+    <state x="941" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1647980180825" />
+    <state width="1515" height="116" key="GridCell.Tab.0.bottom" timestamp="1647980424523">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="116" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1647978050939" />
-    <state width="1515" height="116" key="GridCell.Tab.0.center" timestamp="1647978050939">
+    <state width="1515" height="116" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1647980424523" />
+    <state width="1515" height="116" key="GridCell.Tab.0.center" timestamp="1647980424523">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="116" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1647978050939" />
-    <state width="1515" height="116" key="GridCell.Tab.0.left" timestamp="1647978050939">
+    <state width="1515" height="116" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1647980424523" />
+    <state width="1515" height="116" key="GridCell.Tab.0.left" timestamp="1647980424523">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="116" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1647978050939" />
-    <state width="1515" height="116" key="GridCell.Tab.0.right" timestamp="1647978050939">
+    <state width="1515" height="116" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1647980424523" />
+    <state width="1515" height="116" key="GridCell.Tab.0.right" timestamp="1647980424523">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="116" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1647978050939" />
+    <state width="1515" height="116" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1647980424523" />
     <state width="747" height="273" key="GridCell.Tab.1.bottom" timestamp="1647532990076">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
