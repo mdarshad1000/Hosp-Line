@@ -1,10 +1,12 @@
 import psycopg2
 import json
 
+# Opening json file in read mode
 with open('auth.json') as r:
     config = json.load(r)
 
 
+# Class including all the actions' functionality
 class Actions:
     def __init__(self, config):
         # From json File
@@ -15,6 +17,7 @@ class Actions:
         self.port = 5432
         self.conn = None
 
+    # To connect the database
     def connect(self):
         if self.conn is None:
             self.conn = psycopg2.connect(
@@ -26,20 +29,7 @@ class Actions:
             )
             print('Database connected successfully!')
 
-    # def create_table(self):
-    #     self.connect()
-    #     cur = self.conn.cursor()
-    #     create_script = ''''CREATE TABLE IF NOT EXISTS patient(
-    #                 spot SERIAL PRIMARY KEY,
-    #                 name VARCHAR(30) NOT NULL,
-    #                 birthday VARCHAR(30) NOT NULL,
-    #                 gender VARCHAR(15) NOT NULL,
-    #                 spot INT)
-    #                 '''
-    #     cur.execute(create_script)
-    #     self.conn.commit()
-    #     cur.close()
-
+    # Inserting a new user in the queue
     def new_entry(self, name, birthday, gender, spot):
         self.connect()
         cur = self.conn.cursor()
@@ -50,6 +40,7 @@ class Actions:
 
         print("Patient joined the queue")
 
+    # Assigning a spot to the user
     def new_spot(self):
         self.connect()
         cur = self.conn.cursor()
@@ -64,6 +55,7 @@ class Actions:
         print("New patient joined the queue", maximum)
         return maximum
 
+    # Fetch the spot of the user
     def get_spot(self, name):
         self.connect()
         cur = self.conn.cursor()
@@ -73,6 +65,7 @@ class Actions:
         cur.close()
         return spot
 
+    # Calculates the total people ahead
     def total_infront(self, name):
         self.connect()
         cur = self.conn.cursor()
@@ -89,6 +82,7 @@ class Actions:
             return total
         return 0
 
+    # Removing a person from the queue
     def leave(self, name, spot):
         self.connect()
         cur = self.conn.cursor()
@@ -97,14 +91,3 @@ class Actions:
         self.conn.commit()
         cur.close()
         print(name, "left")
-
-#  ----EXPLANATION----
-# def get_spot()
-# That command basically selects the maximum element from the "spot" row and stores it into 'max' row.
-# If the "spot" list is empty then the first element of the "spot" row will become 1
-# If the "spot" list is not empty then there will be only one element, and in that case max will get assigned the next value i.e max[0] + 1
-
-
-# total_infront() fetches the tuple of 'spot' using fetchone()
-# Then if it is not None then it selects all values which are less than the first value in the tuple i.e the spot.
-# then it converts it into a list and stores the no.of elements in the list

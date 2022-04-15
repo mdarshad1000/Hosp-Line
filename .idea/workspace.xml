@@ -7,9 +7,10 @@
   <component name="ChangeListManager">
     <list default="true" id="138c9657-bec0-4c9f-9a4a-815659a80710" name="Default Changelist" comment="updating database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/queue.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/queue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -292,6 +294,7 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,26 +326,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1646845772372" />
-    <state x="941" y="187" key="FileChooserDialogImpl" timestamp="1647980180825">
+    <state x="516" y="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1650050033478">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="941" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1647980180825" />
-    <state width="1515" height="116" key="GridCell.Tab.0.bottom" timestamp="1647982154751">
+    <state x="516" y="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1650050033478" />
+    <state x="941" y="187" key="FileChooserDialogImpl" timestamp="1648411765750">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="116" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1647982154751" />
-    <state width="1515" height="116" key="GridCell.Tab.0.center" timestamp="1647982154751">
+    <state x="941" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1648411765750" />
+    <state width="1515" height="116" key="GridCell.Tab.0.bottom" timestamp="1648411782869">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="116" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1647982154751" />
-    <state width="1515" height="116" key="GridCell.Tab.0.left" timestamp="1647982154751">
+    <state width="1515" height="116" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1648411782869" />
+    <state width="1515" height="116" key="GridCell.Tab.0.center" timestamp="1648411782869">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="116" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1647982154751" />
-    <state width="1515" height="116" key="GridCell.Tab.0.right" timestamp="1647982154751">
+    <state width="1515" height="116" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1648411782869" />
+    <state width="1515" height="116" key="GridCell.Tab.0.left" timestamp="1648411782869">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="116" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1647982154751" />
+    <state width="1515" height="116" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1648411782869" />
+    <state width="1515" height="116" key="GridCell.Tab.0.right" timestamp="1648411782869">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="116" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1648411782869" />
     <state width="747" height="273" key="GridCell.Tab.1.bottom" timestamp="1647532990076">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -359,14 +366,6 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="747" height="273" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1647532990076" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1639857786749">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1639857786749" />
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1639857642171">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1639857642171" />
     <state x="814" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1647197560350">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
