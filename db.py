@@ -14,7 +14,7 @@ class Actions:
         self.dbname = config['DB']
         self.user = config['USER']
         self.password = config['PASS']
-        self.port = 5432
+        self.port = 5433
         self.conn = None
 
     # To connect the database
